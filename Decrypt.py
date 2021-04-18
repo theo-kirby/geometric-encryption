@@ -9,7 +9,7 @@ with open("C.txt", 'r') as f:
     f.close()
 
 l = []
-
+t = ()
 def D(c):
 
     p = ""
@@ -21,10 +21,12 @@ def D(c):
         p += alpha[y]
         
     return(p)
+for index, num in enumerate(nums):
 
-for index, char in enumerate(nums):
-    
-    t = nums[index], nums[index+1], nums[index+2]
-    l.append(t)
-
+    if index % 3 != 0:
+        t += tuple(num)    
+    else:
+        t += tuple(num)
+        l.append(t)
+        t = ()
 print(l)

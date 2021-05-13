@@ -3,6 +3,6 @@
 
 To activate virtual environment: 
 
-'''
+```
 $ source ge_env/bin/activate
-'''
+```

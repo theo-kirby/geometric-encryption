@@ -7,8 +7,15 @@
 ```
 $ source ge_env/bin/activate
 ```
-
+---
 **via https://people.math.umass.edu/~gunnells/talks/crypt.pdf**
 
 
 ![crytography example](https://github.com/theo-kirby/geometric-encryption/blob/master/Screen%20Shot%202021-05-17%20at%2010.00.56%20AM.png?raw=true)
+---
+
+encrypt plaintext file P.txt into cyphertext C.txt :
+
+```
+$ python3 Encrypt.py
+```

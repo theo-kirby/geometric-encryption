@@ -21,7 +21,7 @@ def Encrypt(p):
         fieldnames = ['x','y','z']
         writer = csv.DictWriter(f_, fieldnames=fieldnames)
         writer.writeheader()
- 
+        print(" \n Encryption of Plaintext (p.csv) -> Cyphertext (c.csv) : \n") 
  
         for index, char in enumerate(p):   
         
@@ -35,7 +35,7 @@ def Encrypt(p):
         
             writer.writerow({'x': x, 'y': y, 'z': z})
  
-    return(c)
+    print(c)
 
 Encrypt(words)
 

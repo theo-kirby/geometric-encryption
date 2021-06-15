@@ -17,7 +17,7 @@ def Decrypt(c):
 
         reader = csv.DictReader(f)
         lines = 0
-        print(" \n Decryption of Cyphertext (c.csv) : \n")
+        print(" \n Decryption of Cyphertext (c.csv) -> Plaintext (p.csv) : \n")
 
         for row in reader:
             

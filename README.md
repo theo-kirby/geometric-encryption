@@ -6,10 +6,6 @@
 
 This project implements basic encryption techniques to encode and visualize text data using python3
 
-    - Goal : to experiment with and understand how python deals with reading and writing files, to create something interesting that can produce eye-catching visuals
-    - Capabilities : encode text files as basic vector coordinates, decode back into plaintext, accept command line arguments for file i/o, visualize data via matplotlib and blender 
-    - Usage >
-
 
 ## Run Locally
 

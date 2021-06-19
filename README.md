@@ -30,12 +30,12 @@ Install dependencies
 
 Encrypt (p.csv) -> (c.csv)
 ```bash
-python3 /Encryption/Encrypt.py
+python3 Encrypt.py -i p.csv -o c.csv
 ```
 
 Decrypt (c.csv) -> (p.csv)
 ```bash
-python3 /Encryption/Decrypt.py
+python3 Decrypt.py
 ```
 
   

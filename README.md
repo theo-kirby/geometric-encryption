@@ -43,6 +43,5 @@ python3 Decrypt.py
 
 ![App Screenshot](Resources/images/Cryptography_Reference.png)
 ![App Screenshot](Resources/images/Visualizations.png)
-![App Screenshot](Resources/images/Encrypt_Decrypt_Functions.png)
 
   
